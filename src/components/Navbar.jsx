@@ -33,12 +33,12 @@ const Navbar = ({ nav, setNav }) => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="work" smooth={true} duration={500}>
+                    <Link to="work" offset={-75} smooth={true} duration={500}>
                         Work
                     </Link>
                 </li>
                 <li>
-                    <Link to="contact" smooth={true} duration={500}>
+                    <Link to="contact" offset={-75} smooth={true} duration={500}>
                         Contact
                     </Link>
                 </li>

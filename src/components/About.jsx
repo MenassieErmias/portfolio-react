@@ -18,7 +18,7 @@ const About = () => {
                     </div>
                     <div>
                         <p className="px-4">
-                            I am an aspiring web developer, with a passion for developing problem solving Softwares. I mainly work on web sites but also have experience building well deisgned and highly interactive apps. Check out my expertise in skills section of this page. What can we build together?
+                            I am an aspiring web developer, with a passion for developing problem solving softwares. I mainly work on web sites but also have experience building well deisgned and highly interactive apps. Check out my expertise in skills section of this page. What can we build together?
                         </p>
                     </div>
                 </div>
