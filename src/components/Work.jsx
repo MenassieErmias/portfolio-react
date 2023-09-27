@@ -1,5 +1,5 @@
-import WorkImg from '../assets/projects/realestate.jpg'
-import WorkImg2 from '../assets/projects/workImg.jpeg'
+import Notflix from '../assets/projects/notflix.png'
+import LandingSite from '../assets/projects/landing-site.png'
 
 const Work = () => {
     return (
@@ -17,9 +17,41 @@ const Work = () => {
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {/* CARDS */}
                     {/* CARD 1 */}
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div style={{ backgroundImage: `url(${Notflix})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div>
-                            <div className='opacity-0 group-hover:opacity-100 text-center'>
+                            <div className='opacity-0 group-hover:opacity-80 text-center duration-500'>
+                                <span className='w-full text-2xl font-bold tracking-wider text-center'>Notflix</span>
+                                <div>
+                                    <a target='_blank' href="https://netflix-react-14ded.web.app/">
+                                        <button className='text-center px-4 py-3 m-2 rounded-lg bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    </a>
+                                    <a href="">
+                                        <button className='text-center px-4 py-3 m-2 rounded-lg bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* CARD 1 */}
+                    <div style={{ backgroundImage: `url(${LandingSite})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        <div>
+                            <div className='opacity-0 group-hover:opacity-80 text-center duration-500'>
+                                <span className='w-full text-2xl font-bold tracking-wider text-center'>Landing site</span>
+                                <div>
+                                    <a target='_blank' href="https://peppy-sherbet-385817.netlify.app/">
+                                        <button className='text-center px-4 py-3 m-2 rounded-lg bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    </a>
+                                    <a href="">
+                                        <button className='text-center px-4 py-3 m-2 rounded-lg bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* CARD 1 */}
+                    <div style={{ backgroundImage: `url(${Notflix})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        <div>
+                            <div className='opacity-0 group-hover:opacity-80 text-center duration-500'>
                                 <span className='w-full text-2xl font-bold tracking-wider text-center'>Real Estate React Project</span>
                                 <div>
                                     <a href="">
@@ -33,9 +65,9 @@ const Work = () => {
                         </div>
                     </div>
                     {/* CARD 1 */}
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div style={{ backgroundImage: `url(${Notflix})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div>
-                            <div className='opacity-0 group-hover:opacity-100 text-center'>
+                            <div className='opacity-0 group-hover:opacity-80 text-center duration-500'>
                                 <span className='w-full text-2xl font-bold tracking-wider text-center'>Real Estate React Project</span>
                                 <div>
                                     <a href="">
@@ -49,9 +81,9 @@ const Work = () => {
                         </div>
                     </div>
                     {/* CARD 1 */}
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div style={{ backgroundImage: `url(${Notflix})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div>
-                            <div className='opacity-0 group-hover:opacity-100 text-center'>
+                            <div className='opacity-0 group-hover:opacity-80 text-center duration-500'>
                                 <span className='w-full text-2xl font-bold tracking-wider text-center'>Real Estate React Project</span>
                                 <div>
                                     <a href="">
@@ -65,41 +97,9 @@ const Work = () => {
                         </div>
                     </div>
                     {/* CARD 1 */}
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div style={{ backgroundImage: `url(${Notflix})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div>
-                            <div className='opacity-0 group-hover:opacity-100 text-center'>
-                                <span className='w-full text-2xl font-bold tracking-wider text-center'>Real Estate React Project</span>
-                                <div>
-                                    <a href="">
-                                        <button className='text-center px-4 py-3 m-2 rounded-lg bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                    </a>
-                                    <a href="">
-                                        <button className='text-center px-4 py-3 m-2 rounded-lg bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* CARD 1 */}
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
-                        <div>
-                            <div className='opacity-0 group-hover:opacity-100 text-center'>
-                                <span className='w-full text-2xl font-bold tracking-wider text-center'>Real Estate React Project</span>
-                                <div>
-                                    <a href="">
-                                        <button className='text-center px-4 py-3 m-2 rounded-lg bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                    </a>
-                                    <a href="">
-                                        <button className='text-center px-4 py-3 m-2 rounded-lg bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* CARD 1 */}
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040316] group container rounded-md flex justify-center items-center mx-auto content-div">
-                        <div>
-                            <div className='opacity-0 group-hover:opacity-100 text-center'>
+                            <div className='opacity-0 group-hover:opacity-80 text-center duration-500'>
                                 <span className='w-full text-2xl font-bold tracking-wider text-center'>Real Estate React Project</span>
                                 <div>
                                     <a href="">
