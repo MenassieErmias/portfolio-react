@@ -2,6 +2,7 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 // import Typed from 'react-typed';
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-scroll';
 
 const Home = ({ nav }) => {
     return (
@@ -30,12 +31,14 @@ const Home = ({ nav }) => {
                 </h2>
                 <p className='text-[#83777e] max-w-[700px] py-4'>I'm a web designer and developer. I am primarily a frontend developer, but I have a little experience with backend development as well.</p>
                 <div>
-                    <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#83777e] hover:border-[#83777e] group'>
-                        View Work
-                        <span className='group-hover:rotate-90 duration-300'>
-                            <HiArrowNarrowRight className="ml-2" />
-                        </span>
-                    </button>
+                    <Link to="work" smooth={true} duration={500}>
+                        <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#83777e] hover:border-[#83777e] group'>
+                            View Work
+                            <span className='group-hover:rotate-90 duration-300'>
+                                <HiArrowNarrowRight className="ml-2" />
+                            </span>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
