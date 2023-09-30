@@ -29,7 +29,7 @@ const Home = ({ nav }) => {
                         style={{ caretColor: 'transparent' }}
                     />}
                 </h2>
-                <p className='text-[#83777e] max-w-[700px] py-4'>I'm a web designer and developer. I am primarily a frontend developer, but I have a little experience with backend development as well.</p>
+                <p className='text-[#83777e] max-w-[700px] py-4'>I'm a web designer and developer. I am primarily a frontend developer, but I have some experience with backend development as well.</p>
                 <div>
                     <Link to="work" smooth={true} duration={500}>
                         <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#83777e] hover:border-[#83777e] group'>
